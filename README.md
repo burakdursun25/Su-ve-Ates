@@ -1,28 +1,39 @@
-# Su ve Ateş (Water and Fire)
+# 🔥 Su ve Ateş (Water and Fire) 💧
 
-Unreal Engine kullanılarak geliştirilen, elementlerin dengesine dayalı bir platform/bulmaca oyun projesi.
-
-## 📝 Proje Hakkında
-Bu proje, iki farklı karakterin (Su ve Ateş) mekaniklerini ve birbirleriyle olan etkileşimlerini temel alan bir mantık üzerine kurulmuştur. Oyuncuların çevresel engelleri aşmak için element özelliklerini stratejik olarak kullanması gerekir.
-
-## 🎮 Nasıl Oynanır?
-Oyunun test edilebilir sürümüne ulaşmak için:
-1. Sağ menüdeki **[Releases](https://github.com/burakdursun25/Su-ve-Ate-/releases)** bölümüne gidin.
-2. Güncel `.zip` dosyasını indirin.
-3. Arşivi klasöre çıkartıp `.exe` uzantılı dosyayı çalıştırın.
-
-## 🛠 Kullanılan Teknolojiler
-* **Motor:** Unreal Engine
-* **Dil:** Blueprint / C++ (Hangisini ağırlıklı kullandıysan bırakabilirsin)
-* **Tür:** Platformer / Puzzle
-
-## ⚙️ Kurulum (Geliştiriciler İçin)
-Proje dosyalarını kendi bilgisayarınızda incelemek isterseniz:
-1. Depoyu klonlayın: `git clone https://github.com/burakdursun25/Su-ve-Ate-.git`
-2. Unreal Engine editöründe `.uproject` dosyasını başlatın.
-
-## 👥 İletişim & Geliştirici
-* **Geliştirici:** [Burak Dursun](https://github.com/burakdursun25)
+Java ile geliştirilmiş, strateji ve dikkate dayalı bir platform/bulmaca oyunu.
 
 ---
-*Bu proje geliştirme aşamasındadır.*
+
+## 🎮 Oyun Hakkında (Tanıtım)
+**Su ve Ateş**, zıt elementlerin güçlerini birleştirerek engelleri aşmaya çalıştığı bir maceradır. 
+
+### Temel Hikaye ve Amaç:
+Oyunda iki farklı karakteri (veya mekaniği) yönetiyorsunuz. Ateş karakteri su birikintilerinden geçemezken, Su karakteri de ateş tuzaklarından zarar görür. Amacınız:
+* Karakterlerin zayıflıklarına dikkat ederek ilerlemek.
+* Bölüm sonundaki hedefe ulaşmak için mantık bulmacalarını çözmek.
+* Elementlerin birbirine olan etkisini kullanarak engelleri aşmak.
+
+### Öne Çıkan Özellikler:
+* **Hızlı Mekanikler:** Java tabanlı akıcı oynanış.
+* **Stratejik Bulmacalar:** Her adımda bir sonraki hamleyi düşünme zorunluluğu.
+* **Minimalist Tasarım:** Gözü yormayan, oyun mantığına odaklanan arayüz.
+
+---
+
+## 🛠 Kurulum ve Çalıştırma (Nasıl Oynanır?)
+
+Oyunun kodlarıyla uğraşmadan doğrudan oynamak isterseniz şu adımları izleyin:
+
+### 1. Hazırlık
+Bilgisayarınızda **Java (JRE veya JDK)** yüklü olmalıdır. Yüklü olup olmadığını kontrol etmek için terminale/CMD'ye `java -version` yazabilirsiniz.
+
+### 2. İndirme
+1. Sayfanın sağ tarafındaki **[Releases](https://github.com/burakdursun25/Su-ve-Ate-/releases)** sekmesine tıklayın.
+2. En güncel sürümdeki `.zip` dosyasını bilgisayarınıza indirin.
+3. Zip dosyasını bir klasöre çıkartın.
+
+### 3. Çalıştırma
+* **Kolay Yol:** Klasör içindeki `.jar` dosyasına çift tıklayın.
+* **Alternatif (Terminal):** Eğer çift tıklayınca açılmazsa, klasörün içinde terminal açıp şu komutu yazın:
+  ```bash
+  java -jar SuVeAtes.jar
